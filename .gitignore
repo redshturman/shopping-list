@@ -1,3 +1,13 @@
 # Ignore Visual Studio index files
 *.vsidx
 *.vsidx*
+
+# Ignore Visual Studio files
+.vs/
+
+# Ignore build output
+bin/
+obj/
+shopping-list/bin/
+shopping-list/obj/
+
