@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(3, 151, 156);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Ensure it's centered within the parent */
+}

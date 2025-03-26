@@ -1,0 +1,56 @@
+/* General container styling */
+.shopping-list {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d9f3db;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* List styling */
+  .shopping-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .shopping-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .shopping-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Item text styling */
+  .shopping-list li span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Delete button styling */
+  .shopping-list li button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .shopping-list li button:hover {
+    background-color: #ff4c4c;
+  }
